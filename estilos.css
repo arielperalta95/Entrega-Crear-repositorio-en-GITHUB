@@ -262,3 +262,339 @@ footer .redesSociales i:hover{
     color: white;
 }
 
+/*MUNDIAL MEXICO*/
+
+/*HEADER - TODAS LAS PAGINAS*/
+#mexico86{
+    background-color: lightblue;
+    width: 100%;
+    height: 60px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+#mexico86 .logoMaradona{
+    font-size: 30px;
+    float: left;
+}
+
+#mexico86 .logoMaradona span{
+color: white;
+text-shadow: 0 0 5px;
+}
+
+#mexico86 .barraNavegacion a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+#mexico86 .barraNavegacion a:hover{
+    color: darkblue;
+}
+
+#mexico86 .barraNavegacion a:hover{
+    cursor: pointer;
+}
+
+/*MAIN*/
+.mundialMexico{
+    height: 900px;
+    width: 100%;
+    display: flex;
+}
+
+.parteDerechaM{
+    background-image: url(imagenes/maradonaBesoCopa.jpg);
+    height: 900px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    float: right;
+}
+
+.parteIzquierdaM{
+    height: 900px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+.parteIzquierdaM h3{
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 0 0 5px black;
+    padding: 20px;
+}
+
+.parteIzquierdaM p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+/*VIDEO*/
+
+.argIng{
+    height: 380px;
+    width: 100%;
+    display: flex;
+}
+
+.videoArgIng{
+    height:380px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.textoVideoArgIng{
+    height: 380px;
+    width: 50%;
+    background-color: lightblue;
+    float: right;
+}
+
+.textoVideoArgIng h3{
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 0 0 5px black;
+    padding: 20px;
+}
+
+.textoVideoArgIng p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.videoTodosLosGoles{
+    background-color: lightblue;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.imagenFinalCopa{
+    background-image: url(imagenes/maradona86.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+}
+
+.subir{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    color:black;
+}
+
+/*LEYENDA*/
+
+.origenes{
+    height: 1100px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoOrigenes{
+    background-image: url(imagenes/maradonaCebollitas.jpg);
+    height: 1100px;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    float: right;
+}
+
+.textoOrigenes{
+    height: 1100px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.videosLeyenda{
+    height: auto;
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/*CARRERA*/
+
+.argentinosJuniors{
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoAaaj{
+    background-image: url(imagenes/maradonaAaaj.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 50%;
+    float: right;
+}
+
+.textoAaaj{
+    height: 700px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+.textoAaaj p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.bocaJuniors{
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoBocaJuniors{
+    background-image: url(imagenes/maradonaFlores.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    width: 50%;
+    float: right;
+}
+
+.textoBocaJuniors{
+    height: 800px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+.textoBocaJuniors p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+.clubBarcelona{
+    height: 850px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoBarcelona{
+    background-image: url(imagenes/maradonaBarcelona1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+    width: 50%;
+    float: right;
+}
+
+.textoBarcelona{
+    height: 850px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+.textoBarcelona p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+.clubNapoli{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+
+.fotoNapoli{
+    background-image: url(imagenes/maradonaNapoli10.webp);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 50%;
+    float: right;
+}
+
+.textoNapoli{
+    height: 1000px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+.textoNapoli p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    padding: 20px;
+}
+
+.mejoresGolesClub{
+    height: auto;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
+
+/*CONTACTO*/
+.contactoNosotros{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+
+.formulariosCon{
+    height: 450px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    padding: 20px;
+}
+
+.fotoContacto{
+    background-image: url(imagenes/maradonaTelefono.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 50%;
+    float: right;
+}
